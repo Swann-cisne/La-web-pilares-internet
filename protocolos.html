@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Web - Protocolos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">The Web 🌐</div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="solicitud.html">El Viaje de una Solicitud</a>
+            <a href="protocolos.html" class="active">Protocolos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="text-block">
+            <h1>El Lenguaje de la Web: Protocolos</h1>
+            <p class="intro-text">Para que millones de dispositivos en todo el mundo puedan entenderse entre sí, necesitan hablar el mismo idioma. A este conjunto de reglas universales lo llamamos <strong>Protocolos</strong>. La diferencia clave al navegar radica en el nivel de seguridad que uses:</p>
+            
+            <div class="grid-2-protocolos">
+                
+                <div class="card-proto border-red">
+                    <div class="proto-header">
+                        <span class="status-badge unsafe">Inseguro</span>
+                        <h3>HTTP</h3>
+                    </div>
+                    <h4>Hypertext Transfer Protocol</h4>
+                    <p>Es el protocolo tradicional. Transmite toda la información en texto plano. Si un atacante intercepta la red en un punto intermedio, podría leer tus datos, mensajes o contraseñas con total facilidad.</p>
+                </div>
+
+                <div class="card-proto border-green">
+                    <div class="proto-header">
+                        <span class="status-badge safe">Seguro</span>
+                        <h3>HTTPS</h3>
+                    </div>
+                    <h4>Hypertext Transfer Protocol Secure</h4>
+                    <p>Es la versión moderna y protegida. Añade una robusta capa de seguridad criptográfica (SSL/TLS). Toda la información viaja completamente cifrada de extremo a extremo, garantizando tu total privacidad.</p>
+                </div>
+
+            </div> <div class="bg-light-note">
+                <p>💡 <strong>¿Qué pasa cuando escribimos <code>https://</code>?</strong> Le estás indicando explícitamente a tu navegador que descarte la tarjeta tradicional e inicie una comunicación protegida bajo la tarjeta segura.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Universidad Galileo | Swann Rodriguez</p>
+    </footer>
+
+</body>
+</html>
